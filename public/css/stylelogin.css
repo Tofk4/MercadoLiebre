@@ -1,0 +1,320 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: "Roboto", sans-serif; 
+    margin: 0%;
+    background-color:#ebebeb;
+}
+.logo{
+    width: 200px;
+}
+main{
+    background-color:#ebebeb;
+    margin:0%;
+    margin: 90px 0;
+}
+
+.main-header{
+    background-color: #EAC926;
+}
+.copy-header{
+    font-weight:400;
+    text-align: center;
+}
+.main-navbar{
+    display: none;
+}
+.main-navbar ul{
+    list-style: none;
+}
+.main-navbar a{
+    text-decoration: none;
+    color: #5a5a5a;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+.main-navbar a:hover{
+    color: #353535;
+}
+.buscador{
+    font-size: 50px;
+    align-self: center;
+    text-shadow: #ffffff;
+}
+.hamburguer-button{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+}
+img{
+    width: 80%;
+}
+
+p{
+    margin-top: 0%;
+    padding: 10px;
+    align-self: center;
+}
+
+footer{
+    background-color: #ebebeb;
+    border-top: solid 1px #ebebeb;
+    text-align: center;
+}
+.tarjeta{
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+    color: #03264C;
+}
+.regalo{
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+    color: #03264C;
+}
+.escudo{
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+    color: #03264C;
+}
+
+.registro{
+    text-align: center;
+}
+.registro input{
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 50px;
+    border-color: #7a7a7a;
+    outline: none;
+    background-color: #ffffff;
+    border: 10px;
+    padding: 0 20px;
+}
+.botones button{
+    width: 80px;
+    margin: 0 20px;
+    border-radius: 10px;
+    width: 60%;
+    height: 50px;
+    background-color: #0669d3;
+    color: #ffffff;
+    display: block;
+}
+.botones{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+form button:hover{
+    background-color:#0022AA;
+}
+h2{
+    margin-left: 20px;
+    color: rgb(66, 66, 66);
+}
+p{
+    font-size: 12px;
+}
+@media (min-width:361px){
+    .descripcion{
+        display: none;
+    }
+    .product{
+        margin: 10px;
+        padding: 15px;
+    }
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .buscador{
+        text-align: center;
+    }
+    .copy-header{
+        font-size: 15px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .titulo1{
+        font-size: 20px;
+        text-align: left;
+        padding: 5px;
+    }
+}
+
+@media (min-width:769px){
+    .main-header-top{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamburguer-button{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0 5px;
+    }
+    .buscador{
+        align-self: center;
+    }   
+    .contenedor{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .product{
+        width: 40vh;
+        height: 50vh;
+        margin: 10px;
+    }
+    .descripcion{
+        display: block;
+        align-self: flex-end;
+        text-align: left;
+    }
+    .copy-header{
+        max-width: none;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+        align-self: center;
+    }
+    .main-header-top{
+        padding: 10px;
+        align-self: center;
+    }
+    .main-navbar {
+        padding: 5px;
+        justify-content: space-between;
+    }
+    .titulo1{
+        font-size: 25px;
+    }
+    img{
+        height: 80%;
+        width: 90%;
+    }
+    .logo{
+        width: 250px;
+    }
+}  
+
+@media (min-width: 1200px){
+    .main-header-top, .main-navbar{
+        justify-content: space-between;
+        padding: 15px 20px;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+    }
+    .copy-header{
+        text-align: right;
+        margin: 0%;
+    }
+    .main-navbar a{
+        font-size: 20px;
+    }
+    .copy-header{
+        max-width: none;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .logo{
+        width: 350px;
+    }
+    .main-navbar{
+        margin-top:10px;
+    }
+    .main-header-top{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contenedor{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    button{
+        display: block;
+        justify-content: space-between;
+    }
+    .buscador{
+        align-self: center;
+        display: flex;
+    }
+    input{
+        width: 400px;
+        height: 30px;
+        align-self: center;
+    }
+    footer{
+        width: 100%;
+        background-color: #ebebeb;
+        border-top: solid 1px #ebebeb;
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+    .footerbox{
+        width: 20%;
+    }
+    .final{
+        display: flex;
+        justify-content: center;
+    }
+    #copy{
+        display: block;
+    }
+    .tarjeta{
+        text-align: center;
+        font-size: 2em;
+        margin: 10px;
+        color: #03264C;
+    }
+    .tarjeta:hover{
+        color:#0022AA;
+    }
+    .regalo{
+        text-align: center;
+        font-size: 2em;
+        margin: 10px;
+        color: #03264C;
+    }
+    .regalo:hover{
+        color:#0022AA;
+    }
+    .escudo{
+        text-align: center;
+        font-size: 2em;
+        margin: 10px;
+        color: #03264C;
+    }
+    .escudo:hover{
+        color: #0022AA;
+    }
+}

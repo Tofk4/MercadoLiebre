@@ -1,0 +1,405 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: "Roboto", sans-serif; 
+    margin: 0%;
+}
+.logo{
+    width: 200px;
+}
+main{
+    background-color:#ebebeb;
+}
+
+.main-header{
+    background-color: #EAC926;
+}
+.copy-header{
+    font-weight:400;
+    text-align: center;
+}
+.main-navbar{
+    display: none;
+}
+.main-navbar ul{
+    list-style: none;
+}
+.main-navbar a{
+    text-decoration: none;
+    color: #5a5a5a;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+.main-navbar a:hover{
+    color: #353535;
+}
+.buscador{
+    font-size: 50px;
+    align-self: center;
+    text-shadow: #ffffff;
+}
+.hamburguer-button{
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+}
+.banner{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: #ebebeb;
+}
+
+article{
+    text-align: center;
+}
+.titulo1{
+    text-align: left;
+    color: grey;
+    margin: 0%;
+    padding: 0%;
+    background-color: #ebebeb;
+}
+.product{
+    background-color: whitesmoke;
+    border-top: solid 1px #ebebeb;
+    border-radius: 5px;  
+}
+.product:hover{
+    box-shadow: 0px 0px 10px rgb(100,100,100); 
+}
+.bottom-product{
+    justify-content: space-between;
+}
+
+.precio{
+    font-size: 18px;
+    text-align: left;
+}
+.descuento {
+    font-size: 16px;
+    color: yellowgreen; 
+}
+.descripcion{
+    font-size: 16px;
+    text-align: start;
+    color: #666;
+    border-top: solid 1px #ebebeb; 
+}
+.camion{
+    color: yellowgreen;
+    text-align: right;
+}
+main article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+img{
+    width: 80%;
+}
+.precio-descuento{
+    display: flex;
+    align-self: center;
+    padding: 0%;
+}
+.precio-descuento h2{
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+.precio{
+    width: 30%;
+    margin: 0%;
+}
+.descuento{
+    width: 70%;
+    margin: 0%;
+}
+.descripcion{
+    color: #FFF;
+}
+.descripcion:hover{
+    color: rgb(66, 66, 66);;
+}
+footer{
+    background-color: #ebebeb;
+    border-top: solid 1px #ebebeb;
+    text-align: center;
+}
+.tarjeta{
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+    color: #03264C;
+}
+.regalo{
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+    color: #03264C;
+}
+.escudo{
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+    color: #03264C;
+}
+.intereses{
+    text-align: left;
+    border-bottom: solid rgba(128, 128, 128, 0.472) 1px;    
+}
+.perfilDeUsuario{
+    text-align: center;  
+}
+.registro input{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 40px;
+    border-color: #ebebeb;
+    outline: none;
+    background-color: #ffffff;
+    border: 5px;
+}
+.fecha input{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 40px;
+    border-color: #ebebeb;
+    outline: none;
+    background-color: #ffffff;
+    border: 5px;
+}
+.perfilDeUsuario input{
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.intereses input{
+    margin: 15px 10px;
+}
+.botones{
+    width: 80px;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.botones{
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    margin-left: 20px;
+    color: rgb(66, 66, 66);
+}
+p{
+    font-size: 12px;
+}
+
+@media (min-width:361px){
+    .descripcion{
+        display: none;
+    }
+    .product{
+        margin: 10px;
+        padding: 15px;
+    }
+    .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .buscador{
+        text-align: center;
+    }
+    .copy-header{
+        font-size: 15px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .titulo1{
+        font-size: 20px;
+        text-align: left;
+        padding: 5px;
+    }
+}
+
+@media (min-width:769px){
+    .main-header-top{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamburguer-button{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0 5px;
+    }
+    .buscador{
+        align-self: center;
+    }   
+    .contenedor{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .product{
+        width: 40vh;
+        height: 50vh;
+        margin: 10px;
+    }
+    .descripcion{
+        display: block;
+        align-self: flex-end;
+        text-align: left;
+    }
+    .copy-header{
+        max-width: none;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+        align-self: center;
+    }
+    .main-header-top{
+        padding: 10px;
+        align-self: center;
+    }
+    .main-navbar {
+        padding: 5px;
+        justify-content: space-between;
+    }
+    .titulo1{
+        font-size: 25px;
+    }
+    img{
+        height: 80%;
+        width: 90%;
+    }
+    .logo{
+        width: 250px;
+    }
+    button{
+        display: none;
+    }
+}  
+
+@media (min-width: 1200px){
+    .main-header-top, .main-navbar{
+        justify-content: space-between;
+        padding: 15px 20px;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+    }
+    .copy-header{
+        text-align: right;
+        margin: 0%;
+    }
+    .main-navbar a{
+        font-size: 20px;
+    }
+    .copy-header{
+        max-width: none;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .logo{
+        width: 350px;
+    }
+    .main-navbar{
+        margin-top:10px;
+    }
+    .main-header-top{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .contenedor{
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    button{
+        display: block;
+        justify-content: space-between;
+    }
+    .buscador{
+        align-self: center;
+        display: flex;
+    }
+    input{
+        width: 400px;
+        height: 30px;
+        align-self: center;
+    }
+    footer{
+        width: 100%;
+        background-color: #ebebeb;
+        border-top: solid 1px #ebebeb;
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+    .footerbox{
+        width: 20%;
+    }
+    .final{
+        display: flex;
+        justify-content: center;
+    }
+    #copy{
+        display: block;
+    }
+    .tarjeta{
+        text-align: center;
+        font-size: 2em;
+        margin: 10px;
+        color: #03264C;
+    }
+    .tarjeta:hover{
+        color:#0022AA;
+    }
+    .regalo{
+        text-align: center;
+        font-size: 2em;
+        margin: 10px;
+        color: #03264C;
+    }
+    .regalo:hover{
+        color:#0022AA;
+    }
+    .escudo{
+        text-align: center;
+        font-size: 2em;
+        margin: 10px;
+        color: #03264C;
+    }
+    .escudo:hover{
+        color: #0022AA;
+    }
+}
